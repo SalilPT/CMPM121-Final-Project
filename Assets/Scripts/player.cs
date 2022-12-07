@@ -10,7 +10,6 @@ This code is adapted from code provided by the instructor.
 public class player : MonoBehaviour
 {
     public float speed = 10;
-    public ParticleSystem ps;
     public Camera myCamera;
     public float mouseDeltaMultiplier;
     private float myCamXRot;
@@ -31,7 +30,6 @@ public class player : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         Cursor.lockState = CursorLockMode.Locked; // hide cursor when playing the game
-        ps.Stop();
 
         myCamXRot = 0;
         myCamYRot = 0;
