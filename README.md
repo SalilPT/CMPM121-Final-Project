@@ -1,9 +1,22 @@
 # CMPM121-Final-Project - Rube Goldberg Machine Prompt
 ## Criteria Breakdown
-#### Particle System
+### Particle System
 Attached to the TV object. These particles are triggered as the final event in our machine's sequence, mimicking a static tv image.
-#### Controllable Character
+### Controllable Character
 Capsule object located at the corner of the bedroom scene. This has a first person camera attached, the user can use the WASD keys to move around the scene and admire the machine in action.
+### Prompt Criteria
+#### Starting Action
+The user can left click on the screen to start the movement of the machine
+#### Intermediate Collisions
+- Ball rolls down a ramp and triggers a domino fall.
+- The Dominos trigger the falling of an umbrella object.
+- The umbrella falls and pushes a pencil object off the table.
+- The pencil pushes a soda can down a ramp.
+- The can topples a sodacan tower down.
+- The collapse of the tower triggers a second ball down a ramp.
+- Ball collides with controller and turns the TV screen on.
+#### Clear Outcome
+The TV Screen is turned one signaled by the static image on the screen.
 ## Asset/File Sources
 | Name | Type | Source |
 | --- | --- | --- |
