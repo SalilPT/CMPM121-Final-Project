@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Frame">
+        <ui:Label text="Left-click to start&#10;the machine!" display-tooltip-when-elided="true" name="Label" style="font-size: 32px; height: 75px; width: 272px; color: rgb(255, 255, 255); -unity-font-style: bold; padding-left: 16px; padding-right: 0; -unity-text-outline-width: 1px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -15,6 +15,12 @@ public class player : MonoBehaviour
     private float myCamXRot;
     private float myCamYRot;
 
+    // The ball that will be used to start the machine
+    public GameObject startingBall;
+
+    // The game object of the UI text to disable once the machine starts
+    public GameObject uiText;
+
     private Rigidbody rb;
 
     private float movementX; // left/right arrow or A/D
@@ -65,6 +71,12 @@ public class player : MonoBehaviour
         Vector2 rollVector = rollValue.Get<Vector2>();
         // Debug.Log(rollVector);
         rollAmount = rollVector.x;
+    }
+
+    private void OnFire(InputValue fireValue)
+    {
+        uiText.SetActive(false);
+        startingBall.GetComponent<Rigidbody>().useGravity = true;
     }
 
     private void FixedUpdate()
