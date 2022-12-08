@@ -14,9 +14,9 @@ The user can left click on the screen to start the movement of the machine
 - The pencil pushes a soda can down a ramp.
 - The can topples a sodacan tower down.
 - The collapse of the tower triggers a second ball down a ramp.
-- Ball collides with controller and turns the TV screen on.
+- Ball collides with TV remote and turns the TV screen on.
 #### Clear Outcome
-The TV Screen is turned one signaled by the static image on the screen.
+The TV Screen is turned by the collision of the second ball with the TV remote on the bed.
 ## Asset/File Sources
 | Name | Type | Source |
 | --- | --- | --- |
