@@ -9,14 +9,20 @@ Capsule object located at the corner of the bedroom scene. This has a first pers
 The user can left click on the screen to start the movement of the machine
 #### Intermediate Collisions
 - Ball rolls down a ramp and triggers a domino fall.
-- The Dominos trigger the falling of an umbrella object.
+- The dominos trigger the falling of an umbrella object.
 - The umbrella falls and pushes a pencil object off the table.
 - The pencil pushes a soda can down a ramp.
-- The can topples a sodacan tower down.
+- The can topples a soda can tower down.
 - The collapse of the tower triggers a second ball down a ramp.
 - Ball collides with TV remote and turns the TV screen on.
 #### Clear Outcome
 The TV Screen is turned by the collision of the second ball with the TV remote on the bed.
+### Polished / Game Ready
+- The objects in the scene clearly contribute to the look of a bedroom.
+- The scene has several carefully placed lights.
+- The scene doesn't use the default skybox and objects clearly have materials.
+- There is a slight bloom effect. To verify this, look at Player Character->First Person Camera in the scene MainScene.
+- The Rube Goldberg machine in the middle of the room helps make the scene look compelling.
 ## Asset/File Sources
 | Name | Type | Source |
 | --- | --- | --- |
